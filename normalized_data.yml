@@ -1,0 +1,11 @@
+device:
+  hostname: CORE-SW01
+  site: DC1
+  platform: Cisco IOS XE
+vlans:
+- id: 10
+  name: USERS
+- id: 20
+  name: SERVERS
+- id: 40
+  name: MANAGEMENT

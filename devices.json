@@ -1,0 +1,40 @@
+{
+    "results": [
+        {
+            "name": "R1",
+            "role": {
+                "name": "Edge Router"
+            },
+            "site": {
+                "name": "HQ"
+            },
+            "platform": {
+                "name": "Cisco IOS XE"
+            }
+        },
+        {
+            "name": "SW1",
+            "role": {
+                "name": "Access Switch"
+            },
+            "site": {
+                "name": "HQ"
+            },
+            "platform": {
+                "name": "Cisco IOS XE"
+            }
+        },
+        {
+            "name": "LEAF01",
+            "role": {
+                "name": "Leaf Switch"
+            },
+            "site": {
+                "name": "DC1"
+            },
+            "platform": {
+                "name": "Cisco NX-OS"
+            }
+        }
+    ]
+}

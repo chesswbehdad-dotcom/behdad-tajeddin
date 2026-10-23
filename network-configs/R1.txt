@@ -1,0 +1,6 @@
+hostname R1
+interface GigabitEthernet0/0
+ description Office-LAN
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown
+ip route 0.0.0.0 0.0.0.0 192.168.10.254

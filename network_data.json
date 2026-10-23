@@ -1,0 +1,33 @@
+{
+    "device": {
+        "name": "CORE-SW01",
+        "site": {
+            "name": "DC1"
+        },
+        "platform": {
+            "name": "Cisco IOS XE"
+        }
+    },
+    "vlans": [
+        {
+            "vid": 10,
+            "name": "USERS",
+            "status": "active"
+        },
+        {
+            "vid": 20,
+            "name": "SERVERS",
+            "status": "active"
+        },
+        {
+            "vid": 30,
+            "name": "VOICE",
+            "status": "inactive"
+        },
+        {
+            "vid": 40,
+            "name": "MANAGEMENT",
+            "status": "active"
+        }
+    ]
+}

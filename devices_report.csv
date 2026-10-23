@@ -1,0 +1,3 @@
+name,role,site,platform
+R1,Edge Router,HQ,Cisco IOS XE
+SW1,Access Switch,HQ,Cisco IOS XE

@@ -1,0 +1,35 @@
+=== 1. Git Commands Used (in order) ===
+
+mkdir network-configs
+cd network-configs
+git init
+git status
+git status
+git add R1.txt
+git status
+git commit -m "Add initial router configuration"
+git diff
+git add R1.txt
+git commit -m "Update router configuration"
+git diff
+git restore R1.txt
+git status
+git log --oneline
+
+
+=== 2. Answers to the Questions ===
+
+1. What does git init do?
+It initializes a new, empty Git repository in the current folder so Git can start tracking file changes.
+
+2. What is the difference between git add and git commit?
+git add moves modified files to the staging area to prepare them for saving, while git commit permanently saves a snapshot of those staged changes into the repository's history.
+
+3. What does git status show?
+It shows the current state of the working directory and staging area, including which files are modified, staged, or untracked.
+
+4. Why is git diff useful for network configuration files?
+It shows the exact line-by-line changes (what was added or removed) in configuration files before committing, helping engineers avoid accidental misconfigurations.
+
+5. What does git restore do to an uncommitted modification?
+It discards the uncommitted local changes in a file and reverts it back to the state of the last commit.

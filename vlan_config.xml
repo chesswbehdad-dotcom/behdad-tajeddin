@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config>
+    <vlans>
+        <vlan>
+            <vlan-id>10</vlan-id>
+            <name>USERS</name>
+        </vlan>
+        <vlan>
+            <vlan-id>20</vlan-id>
+            <name>SERVERS</name>
+        </vlan>
+        <vlan>
+            <vlan-id>40</vlan-id>
+            <name>MANAGEMENT</name>
+        </vlan>
+    </vlans>
+</config>
